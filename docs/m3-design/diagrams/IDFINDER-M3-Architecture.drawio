@@ -1,0 +1,94 @@
+<mxfile host="Electron">
+  <diagram id="idf-m3" name="System architecture">
+    <mxGraphModel dx="1334" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="755" background="#FAF9FE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#5841A0;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="ID FINDER RWANDA  /  MILESTONE 3" vertex="1">
+          <mxGeometry height="25" width="1216" x="32" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#191C39;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;System architecture&lt;/b&gt;" vertex="1">
+          <mxGeometry height="52" width="1216" x="32" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=#D9D5EB;fontColor=#191C39;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="" vertex="1">
+          <mxGeometry height="137" width="1216" x="32" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#5841A0;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;BROWSER&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="138" x="43" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=#D9D5EB;fontColor=#191C39;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="" vertex="1">
+          <mxGeometry height="215" width="1216" x="32" y="326" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#5841A0;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;APPLICATION&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="138" x="43" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=#D9D5EB;fontColor=#191C39;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="" vertex="1">
+          <mxGeometry height="135" width="1216" x="32" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#5841A0;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;DATA&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="138" x="43" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFF2DF;strokeColor=#985515;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;Finder · Report a found ID&lt;/b&gt;&lt;br&gt;Enter finder contact, ID details, location and photo." vertex="1">
+          <mxGeometry height="78" width="410" x="198" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#E4F6F1;strokeColor=#087B78;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;ID owner · Search for an ID&lt;/b&gt;&lt;br&gt;Enter the name on the ID or the exact ID number." vertex="1">
+          <mxGeometry height="78" width="410" x="672" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFF2DF;strokeColor=#985515;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;Report submission&lt;/b&gt;&lt;br&gt;Validate inputs and photo. Store the finder, document and report. Return a reference." vertex="1">
+          <mxGeometry height="96" width="410" x="198" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#E4F6F1;strokeColor=#087B78;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;Match lookup&lt;/b&gt;&lt;br&gt;Apply rate limits. Match a normalized name or exact ID number. Return limited details." vertex="1">
+          <mxGeometry height="96" width="410" x="672" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#F0EBFF;strokeColor=#5841A0;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;ID Finder web application&lt;/b&gt; · Responsive browser UI with server-side validation" vertex="1">
+          <mxGeometry height="49" width="884" x="198" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#F0EBFF;strokeColor=#5841A0;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;Relational database&lt;/b&gt;&lt;br&gt;Finders, document types, IDs and reports" vertex="1">
+          <mxGeometry height="79" width="365" x="720" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#F0EBFF;strokeColor=#5841A0;fontColor=#191C39;fontSize=16;align=center;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="&lt;b&gt;Private photo storage&lt;/b&gt;&lt;br&gt;Report references point to restricted files." vertex="1">
+          <mxGeometry height="79" width="400" x="199" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="18" edge="1" parent="1" style="strokeColor=#985515;strokeWidth=1.5;dashed=0;endArrow=block;endFill=1;fontFamily=Verdana;fontSize=16;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="270" as="sourcePoint" />
+            <mxPoint x="403" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#985515;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="HTTPS · Submit report" vertex="1">
+          <mxGeometry height="28" width="205" x="411" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" style="strokeColor=#985515;strokeWidth=1.5;dashed=0;endArrow=block;endFill=1;fontFamily=Verdana;fontSize=16;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="387" as="sourcePoint" />
+            <mxPoint x="403" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" style="strokeColor=#087B78;strokeWidth=1.5;dashed=0;endArrow=block;endFill=1;fontFamily=Verdana;fontSize=16;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="877" y="270" as="sourcePoint" />
+            <mxPoint x="877" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=none;fontColor=#087B78;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=12;" value="HTTPS · Search" vertex="1">
+          <mxGeometry height="28" width="205" x="885" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" style="strokeColor=#087B78;strokeWidth=1.5;dashed=0;endArrow=block;endFill=1;fontFamily=Verdana;fontSize=16;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="877" y="387" as="sourcePoint" />
+            <mxPoint x="877" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#985515;strokeWidth=2;fontColor=#191C39;fontSize=16;labelBackgroundColor=#FAF9FE;fontFamily=Verdana;" target="17" value="Store photo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#985515;strokeWidth=2;fontColor=#191C39;fontSize=16;labelBackgroundColor=#FAF9FE;exitX=1;exitY=0.78;entryX=0;entryY=0.5;fontFamily=Verdana;" target="16" value="Save report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;strokeColor=#087B78;strokeWidth=2;fontColor=#191C39;fontSize=16;labelBackgroundColor=#FAF9FE;fontFamily=Verdana;" target="16" value="Query matching IDs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
